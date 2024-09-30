@@ -10,6 +10,7 @@ public class Challenge {
         boolean exit = false;
 
         while (!exit) {
+            System.out.println("**********************************");
             System.out.println("Seleccione una opción:");
             System.out.println("1. Convertir de USD a ARS");
             System.out.println("2. Convertir de ARS a USD");
@@ -18,6 +19,7 @@ public class Challenge {
             System.out.println("5. Convertir de EUR a USD");
             System.out.println("6. Convertir de USD a EUR");
             System.out.println("7. Salir");
+            System.out.println("**********************************");
 
             int option = scanner.nextInt();
 
